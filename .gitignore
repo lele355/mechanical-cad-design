@@ -1,0 +1,92 @@
+# 编译产物 / 缓存
+bin/
+obj/
+packages/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.suo
+*.user
+.vs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX 中间文件
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+
+# 大体积二进制
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.7z
+*.rar
+*.zip
+*.iso
+*.msi
+
+# CAD / 三维模型
+*.sldprt
+*.sldasm
+*.slddrw
+*.prt
+*.asm
+*.igs
+*.iges
+*.stp
+*.step
+*.x_t
+*.dwg
+*.dwl
+*.dwl2
+*.dxf
+*.3dm
+*.mastercam
+
+# 数据库文件
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+
+# Office 临时文件
+~$*
+*.tmp
+
+# 敏感配置
+App.local.config
+Web.local.config
+.env
+*.pem
+*.key
+
+# 系统 / 编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
